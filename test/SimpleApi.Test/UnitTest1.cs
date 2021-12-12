@@ -17,7 +17,7 @@ namespace SimpleApi.Test
             _mockILogger = new Mock<ILogger<WeatherForecastController>>();
             _weatherForecastController = new WeatherForecastController(_mockILogger.Object);
         }
-
+        //test
         [Fact]
         public void Get_ShouldReturnList()
         {
