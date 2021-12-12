@@ -22,7 +22,7 @@ namespace SimpleApi.Test
         public void Get_ShouldReturnList()
         {
             var returnValue = _weatherForecastController.Get(); 
-            Assert.Equal("saeed", "saeed");
+            Assert.Equal("saeed", "sadeed");
 
         }
     }
